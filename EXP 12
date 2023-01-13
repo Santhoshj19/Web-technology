@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <body>
+	<form method="post" action="process.php">
+		First name:<br>
+		<input type="text" name="first_name">
+		<br>
+		Last name:<br>
+		<input type="text" name="last_name">
+		<br>
+		City name:<br>
+		<input type="text" name="city_name">
+		<br>
+		Email Id:<br>
+		<input type="email" name="email">
+		<br><br>
+		<input type="submit" name="save" value="submit">
+	</form>
+  </body>
+</html>
+
+File name: database.php (C:/xampp/htdocs/expr10/database.php)
+<?php
+$servername='localhost';
+$username='root';
+$password='';
+$dbname = "crud";
+$conn=mysqli_connect($servername,$username,$password,"$dbname");
+if(!$conn){
+   die('Could not Connect My Sql:' .mysql_error());
+}
+?>
+
+File name: process.php (C:/xampp/htdocs/expr10/process.php)
+<?php
+include_once 'database.php';
+if(isset($_POST['save']))
+{	 
+	 $first_name = $_POST['first_name'];
+	 $last_name = $_POST['last_name'];
+	 $city_name = $_POST['city_name'];
+	 $email = $_POST['email'];
+	 $sql = "INSERT INTO employee (first_name,last_name,city_name,email)
+	 VALUES ('$first_name','$last_name','$city_name','$email')";
+	 if (mysqli_query($conn, $sql)) {
+		echo "New record created successfully !";
+	 } else {
+		echo "Error: " . $sql . "
+" . mysqli_error($conn);
+	 }
+	 mysqli_close($conn);
+}
+?>
+
+MySQL Queries:
+CREATE DATABASE customer
+USE customer
+CREATE TABLE `employee` (
+	`userid` int(8) NOT NULL,
+	`first_name` varchar(55) NOT NULL,
+	`last_name` varchar(55) NOT NULL,
+	`city_name` varchar(55) NOT NULL,
+	`email` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
