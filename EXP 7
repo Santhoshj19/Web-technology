@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl"href="bookstore.xsl"?>
+<bookstore>
+<book>
+<title>everyday italian</title>
+<authorgiada de laurentiis</author>
+<year>2005</year>
+<price>30.00</price>
+</book>
+<book>
+<title>harry potter</title>
+<author>jk.rowling</author>
+<year>2005</year>
+<price>29.99</price>
+</book>
+<book>
+<title>learing xml</title>
+<author>erik t.ray</author>
+<year>2003</year>
+<price>39.95</price>
+</book>
+</bookstore>
