@@ -1,0 +1,60 @@
+
+<html>
+<head>
+<BODY bgcolor="#gop6876cgdt5564ss">
+<img src ="indiamap.jpeg" usemap="#indiamap" />
+<map name=indiamap>
+<area shape="circle" coords="500,1092,15" href="tamilnadu.html" alt="Tamilnadu">
+<area shape="rect" coords="376,1076,406,1100" href="karnataka.html" alt="Karnataka">
+</map>
+</head>
+</BODY>
+</html>
+tamilnadu.html
+<html>
+<head><title>Tanil Nadu - India</title></head>
+<body bgcolor="palegreen">
+<h1><center>Tamil Nadu</center></h1>
+<h3>is one of the 29 states of India. Its capital and largest city is Chennai.
+Tamil Nadu lies in the southernmost part of the Indian Peninsula and
+is bordered by the States of puducherry, Kerala, Karnataka, Andha Pradesh.
+</h3>
+<h3>
+<ul>
+<li>Districts<i> - 33</i>
+<li>Capital City<i> - Chennai</i>
+<li>Largest City<i> - Chennai</i>
+<li>Governor<i> - Banwarilal Purohit</i>
+<li>Chief Minister<i> - Edappadi K. Palaniswami </i>
+<li>Population<i> - 72,147,030</i>
+
+<li>Tourist spots<i> - Mamallapuran, Ooty, Kodaikanal, Marina, Mudurai Meenakshi Amman Temple, Thanjavur etc.,</i>
+</ul>
+<a href="main.html">back</a>
+</body>
+</html>
+karnataka.html
+<html>
+<head><title>Karnataka - India</title></head>
+<body bgcolor="wheat">
+<h1><center>Karnataka</center></h1>
+<h3>
+<ul>
+<li>Districts<i> - 30</i>
+<li>Capital City<i> - Bangalore</i>
+<li>Largest City<i> - Bangalore</i>
+<li>Governor<i>- Vajubhai Vala</i>
+<li>Chief Minister<i> - H. D. Kumaraswamy </i>
+<li>Population<i> - 61,130,704</i>
+<li>Tourist spots<i> - Gol Gumbaz, Mysore Palace, Keshava Temple etc.,</i>
+</ul>
+</h3>
+<a href="main.html">back</a>
+</body>
+</html>
+
+OUTPUT
+ 
+
+ 
+
